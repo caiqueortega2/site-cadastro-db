@@ -1,6 +1,6 @@
 <?php
-$page_title = "Bem-vindo ao Portal Cibersegurança"; // Define o título da página
-require_once 'includes/header.php'; // Inclui o cabeçalho
+$page_title = "Bem-vindo ao Portal Cibersegurança"; 
+require_once 'includes/header.php';
 ?>
 
 <div class="p-5 mb-4 bg-light rounded-3">
