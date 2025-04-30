@@ -1,0 +1,70 @@
+/* Estilos Gerais */
+body {
+    padding-top: 56px; /* Altura da navbar fixa (ajuste se mudar a navbar) */
+    background-color: #f8f9fa; /* Um cinza bem claro para o fundo */
+}
+
+main.container {
+    background-color: #ffffff; /* Fundo branco para o conteúdo principal */
+    padding: 2rem;
+    border-radius: 0.3rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-bottom: 2rem; /* Espaço antes do footer */
+}
+
+/* Ajustes na Navbar */
+.navbar-brand i {
+    margin-right: 5px;
+}
+.navbar .btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: .875rem;
+    margin-left: 0.5rem; /* Espaço antes do botão Cadastre-se */
+}
+
+
+/* Estilo para Cards (Exemplo na Home) */
+.card {
+    border: none; /* Remover borda padrão */
+    box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,0.07); /* Sombra mais leve */
+    transition: transform 0.2s ease-in-out; /* Efeito suave no hover */
+}
+
+.card:hover {
+    transform: translateY(-5px); /* Leve elevação no hover */
+}
+
+/* Formulários */
+.form-control.is-invalid {
+    border-color: #dc3545; /* Cor da borda de erro do Bootstrap */
+}
+.invalid-feedback {
+    display: none; /* Esconder por padrão */
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: .875em;
+    color: #dc3545; /* Cor do texto de erro */
+}
+.form-control.is-invalid ~ .invalid-feedback {
+    display: block; /* Mostrar mensagem se o campo for inválido */
+}
+
+/* Estilo para mensagens de sessão (Alerts) */
+.alert {
+    margin-bottom: 1.5rem;
+}
+
+/* Rodapé */
+footer.footer {
+    padding: 1rem 0;
+}
+
+/* Responsividade básica (Bootstrap cuida da maior parte) */
+@media (max-width: 768px) {
+    main.container {
+        padding: 1rem;
+    }
+    h1 {
+        font-size: 1.8rem; /* Ajustar tamanho do título em telas menores */
+    }
+}
