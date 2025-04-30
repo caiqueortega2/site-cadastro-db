@@ -1,9 +1,9 @@
 <?php
 // ATENÇÃO: Substitua com suas credenciais REAIS do banco de dados!
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'cybersec_db');      // Mantenha este nome (ou o que você usou em CREATE DATABASE)
-define('DB_USER', 'silentxploitt');   // <<< MUDE AQUI para o seu usuário
-define('DB_PASS', '@Ca39349684');     // <<< MUDE AQUI para a sua senha
+define('DB_NAME', '');      // Mantenha este nome (ou o que você usou em CREATE DATABASE)
+define('DB_USER', '');   // <<< MUDE AQUI para o seu usuário
+define('DB_PASS', '');     // <<< MUDE AQUI para a sua senha
 
 class Database {
     private static $connection = null;
